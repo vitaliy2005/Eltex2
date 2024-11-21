@@ -113,7 +113,7 @@ void clear_screen()
 
 void display_menu(int32_t selected)
 {
-    const char *options[] =
+    const char* options[] =
     {
         "Добавить строку",
         "Удалить строку по индексу",
@@ -219,7 +219,6 @@ int32_t main()
             default:
                 printf("Неверный ввод. Используйте 'w', 's' и Enter.\n");
                 getchar();
-                break;
         }
     }
 
